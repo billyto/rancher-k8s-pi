@@ -16,7 +16,7 @@ spec:
         kubernetes.io/arch: arm64
       containers:
       - name: hello-python
-        image: mfrank55345/hello-python
+        image: billyto/hello-python
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
